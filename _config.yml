@@ -24,9 +24,9 @@ description: A simple blog where I can detail my foray into Engineering and Math
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  Content:
+    - Projects: "http://hacktheworld.io/projects/"
+    - Posts: "http://www.hacktheworld.io/blog/"
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
 
@@ -164,6 +164,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM
