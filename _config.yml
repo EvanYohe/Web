@@ -26,8 +26,8 @@ navbar-links:
   About Me: "aboutme"
   Content:
     - Projects: "http://hacktheworld.io/projects/"
-    - Posts: "http://www.hacktheworld.io/blog/"
-    - GitHub Pages: "https://pages.github.com/"
+    - Posts: "http://www.hacktheworld.io/posts/"
+    - Lessons: "http://www.hacktheworld.io/lessons/"
   Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
