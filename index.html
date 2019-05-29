@@ -8,6 +8,7 @@ use-site-title: true
   <div class="col-sm-4">
     <div class="posts-list">
       {% for post in paginator.posts %}
+      {% if post.content == 'project'%}
       <article class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
     	  <h2 class="post-title">{{ post.title }}</h2>
@@ -76,6 +77,8 @@ use-site-title: true
   <div class="col-sm-4">
     <div class="posts-list">
       {% for post in paginator.posts %}
+      {% if post.content == 'post'%}
+
       <article class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
     	  <h2 class="post-title">{{ post.title }}</h2>
@@ -144,6 +147,8 @@ use-site-title: true
   <div class="col-sm-4">
     <div class="posts-list">
       {% for post in paginator.posts %}
+      {% if post.content == 'lesson'%}
+
       <article class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
     	  <h2 class="post-title">{{ post.title }}</h2>
