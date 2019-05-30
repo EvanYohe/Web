@@ -25,7 +25,7 @@ description: A simple blog where I can detail my foray into Engineering and Math
 navbar-links:
   About Me: "aboutme"
   Content:
-    - Projects: "https://hacktheworld.io/project/index.html"
+    - Projects: "https://hacktheworld.io/project"
     - Posts: "https://hacktheworld.io/post"
     - Lessons: "https://hacktheworld.io/lesson"
   My Patreon: "https://www.patreon.com/htw"
@@ -34,8 +34,7 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 
 paginate_path: "/project/page:num/"
-paginate_path: "/lesson/page:num/"
-paginate_path: "/post/page:num/"
+
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
