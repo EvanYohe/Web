@@ -38,6 +38,11 @@ avatar: "/img/char.png"
 # then specify the following parameter
 # title-img: /path/to/image
 
+categories:
+  -project
+  -lesson
+  -post
+
 paginate_path: "/lesson/page:num/"
 
 paginate_path: "/post/page:num/"
