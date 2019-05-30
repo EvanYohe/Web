@@ -25,7 +25,7 @@ description: A simple blog where I can detail my foray into Engineering and Math
 navbar-links:
   About Me: "aboutme"
   Content:
-    - Projects: "https://hacktheworld.io/project/index.html/"
+    - Projects: "https://hacktheworld.io/project/index.html"
     - Posts: "https://hacktheworld.io/post/"
     - Lessons: "https://hacktheworld.io/lesson/"
   My Patreon: "https://www.patreon.com/htw"
