@@ -38,14 +38,16 @@ avatar: "/img/char.png"
 # then specify the following parameter
 # title-img: /path/to/image
 
-categories:
-  -project
-  -lesson
-  -post
+collections:
 
-paginate_path: "/lesson/page:num/"
+  project:
+    permalink: /project/:path/
 
-paginate_path: "/post/page:num/"
+  lesson:
+    permalink: /lesson/:path/
+
+  post:
+    permalink: /post/:path/
 
 # --- Background colour/image options --- #
 
