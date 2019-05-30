@@ -25,9 +25,9 @@ description: A simple blog where I can detail my foray into Engineering and Math
 navbar-links:
   About Me: "aboutme"
   Content:
-    - Projects: "http://hacktheworld.io/projects/"
-    - Posts: "http://www.hacktheworld.io/posts/"
-    - Lessons: "http://www.hacktheworld.io/lessons/"
+    - Projects: "project"
+    - Posts: "posts"
+    - Lessons: "lesson"
   Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
