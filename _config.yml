@@ -23,17 +23,16 @@ description: A simple blog where I can detail my foray into Engineering and Math
 
 # List of links in the navigation bar
 navbar-links:
+  Content: "https://hacktheworld.io/post"
   About Me: "aboutme"
-  Content:
-    - Projects: "https://hacktheworld.io/project"
-    - Posts: "https://hacktheworld.io/post"
-    - Lessons: "https://hacktheworld.io/lesson"
+  FAQ: "faq"
+  Downloads: "temp"
   My Patreon: "https://www.patreon.com/htw"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 
-paginate_path: "/project/page:num/"
+paginate_path: "/post/page:num/"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
