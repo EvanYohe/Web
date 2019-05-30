@@ -4,21 +4,20 @@ title: My website
 subtitle: This is where I will tell my friends way too much about me
 use-site-title: true
 ---
-<script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
-<script>
-SimpleJekyllSearch({
-  search-input: document.getElementById('search-input'),
+
+<!-- HTML elements for search -->
+<input type="text" id="search-input" placeholder="Search blog posts..">
+<ul id="results-container"></ul>
+
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+
+<Script>
+  var sjs = SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/search.json',
-  searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
+  json: '/search.json'
 })
-</script>
-
-
-
-<input type="text" id="search-input" placeholder="search posts..">
-<br/>
-<div id="results-container"></div>
+</Script>
 
 <div class="posts-list">
   {% for post in paginator.posts %}
