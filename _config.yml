@@ -23,7 +23,7 @@ description: A simple blog where I can detail my foray into Engineering and Math
 
 # List of links in the navigation bar
 navbar-links:
-  Content: "https://hacktheworld.io/content/"
+  Content: "https://hacktheworld.io/content"
   About Me: "aboutme"
   FAQ: "faq"
   Downloads: "temp"
