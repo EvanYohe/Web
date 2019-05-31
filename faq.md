@@ -6,9 +6,8 @@ published: true
 ---
 # About me!
 
-More often than not when I read 'about me' pages, I'm bombarded with surface level information and mundane facts that give me a cursory glimpse into the life of whoever happened to write that page, but this about me is going to be a little different. Instead of writing about the things I do, where I live, and what my hobbies are, I'm going to talk a little about my pursuit of happiness and my lifelong journey to find purpose; after all, that is what most of us are looking for, happiness and purpose.
 
-When I was twelve, I read about a Japanese concept called 'Ikigai'. It translates into "a reason for being" and I have carried this ideal with me throughout my life to this day. It is commonly described as a venn diagram of four overlapping circles and at the center of these circles I have always though of as purpose.
+"a reason for being" and I have carried this ideal with me throughout my life to this day. It is commonly described as a venn diagram of four overlapping circles and at the center of these circles I have always though of as purpose.
 
 ![ikigai.png]({{site.baseurl}}/img/ikigai.png)
 
