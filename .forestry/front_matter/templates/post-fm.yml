@@ -1,4 +1,42 @@
 ---
 label: Post FM
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  description: layout
+  default: post
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of Page
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: SubTitle
+  description: A description of your post
+- name: date
+  type: text
+  config:
+    required: false
+  label: date
+  description: 'Format: yyyy-mm-dd'
+- name: wizzle
+  type: text
+  config:
+    required: false
+  label: wizzle
+  description: post, project, lesson
+- name: image
+  type: text
+  config:
+    required: false
+  label: Thumbnail
+  description: Add a thumbnail to post.
