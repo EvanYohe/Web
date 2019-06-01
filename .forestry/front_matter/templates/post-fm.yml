@@ -35,8 +35,8 @@ fields:
   label: wizzle
   description: post, project, lesson
 - name: image
-  type: text
+  type: file
   config:
-    required: false
-  label: Thumbnail
-  description: Add a thumbnail to post.
+    maxSize: 250
+  label: Thubmnail
+  description: Thumbnail
