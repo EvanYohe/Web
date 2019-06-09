@@ -40,5 +40,14 @@ fields:
     maxSize: 250
   label: Thubmnail
   description: Thumbnail
+- name: post_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: post content
 pages:
 - _posts/how-vacuum-tubes-work-the-basics-of-guitar-amps.md
