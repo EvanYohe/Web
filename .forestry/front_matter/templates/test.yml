@@ -25,3 +25,5 @@ fields:
     required: false
   label: Date
   description: yyyy-mm-dd
+pages:
+- _posts/how-vacuum-tubes-work-guitar-amp-basics.md
