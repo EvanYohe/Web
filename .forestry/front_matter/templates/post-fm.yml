@@ -40,3 +40,5 @@ fields:
     maxSize: 250
   label: Thubmnail
   description: Thumbnail
+pages:
+- _posts/how-vacuum-tubes-work-the-basics-of-guitar-amps.md
