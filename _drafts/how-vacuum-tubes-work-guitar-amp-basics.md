@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: post
 title: How Vacuum Tubes work; Guitar Amp Basics
 subtitle: Vacuum tubes are the lifeblood of an amplifier so it's important to know
   how the work.
@@ -8,4 +8,4 @@ wizzle: post
 date: '2019-06-09'
 
 ---
-Wip
+### What are Vacuum Tubes anyway?
