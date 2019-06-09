@@ -1,0 +1,29 @@
+---
+label: Test
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- type: file
+  name: image
+  label: image
+- type: text
+  name: wizzle
+  label: wizzle
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date
+  description: yyyy-mm-dd
+pages:
+- _posts/how-vacuum-tubes-work-guitar-amp-basics.md
