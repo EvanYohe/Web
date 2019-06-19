@@ -33,6 +33,7 @@ layout: base
 
       <article role="main" class="blog-post">
         {% include toc.html html=content %}
+        {{ content }}
       </article>
 
       {% if page.tags.size > 0 %}
