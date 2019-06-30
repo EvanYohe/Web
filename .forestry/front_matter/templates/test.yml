@@ -26,5 +26,6 @@ fields:
   label: Date
   description: yyyy-mm-dd
 pages:
+- _posts/project-planning.md
 - _posts/smartwatches-and-wearable-tech.md
 - _posts/how-vacuum-tubes-work-guitar-amp-basics.md
